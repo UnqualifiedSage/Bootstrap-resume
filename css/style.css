@@ -1,0 +1,167 @@
+:root{
+    --primary-color:#403d3e;
+    --secondary-color:rgb(0, 48, 71);
+    --tertiary-color:rgb(60, 163, 207);
+    --quaternary-color:rgb(233, 232, 232);
+    --quinary-color:rgb(226, 226, 226);
+    --senary-color:rgb(126 , 126, 128);
+    --septenary-color: rgb(191, 208, 216);;
+    
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: var(--septenary-color);
+}
+.container{
+    top:50px;
+    position: relative;
+    padding-bottom: 50px;
+}
+@media only screen and (max-width: 767px) {
+    .container{
+        top: 0px;
+    }
+}
+
+h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: var(--secondary-color);
+}
+h4{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color: var(--quaternary-color);
+}
+hr { 
+    background-color: var(--quinary-color);;
+    height: 1px;
+    border: 0; 
+}
+.box-photo {
+    background-color: var(--secondary-color);
+}
+.box-photo .photo{
+    text-align: center;
+}
+.box-photo .photo img{
+    width: 200px;
+    border: 2px solid #FFFFFF; /* shorthand */
+    border-radius: 50%;
+    margin: 30px 30px 0 30px;
+    box-shadow: 0px 0px 10px #959595;
+}
+.box-photo .photo h2{
+    color: var(--quaternary-color);
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.box-photo .photo p{
+    color: var(--quinary-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+ 
+.box-photo  .contact ul li{
+    padding-bottom: 10px;
+}
+.box-photo  .contact ul li i{
+    padding-right: 8px;
+    color: var(--tertiary-color);
+}
+.box-photo  .contact ul li a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: var(--quinary-color)
+}
+.box-photo  .contact ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+.box-photo .educationul li{
+    padding-bottom: 10px;
+}
+.box-photo .education ul li h5{
+    font-size: 15px;
+    color: var(--tertiary-color);
+    margin-bottom: 2px;
+}
+.box-photo .education ul li p{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--quinary-color);
+    font-weight: bold;
+}
+.box-photo .education ul li span{
+   letter-spacing: 1.2px;
+    font-weight:normal;
+    font-size: 14px;
+}
+.box-photo  .education ul li a{
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: var(--quinary-color)
+}
+.box-photo .education ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.box-photo .languages .progress{
+    height: 8px;
+}
+.box-photo .languages .progress .progress-bar{
+    background-color: var(--tertiary-color);
+}
+.box-photo .languages ul li{
+    padding-bottom: 15px;
+}
+.box-photo .languages ul li h5{
+    font-size: 15px;
+    color: var(--quinary-color);
+    margin-bottom: 5px;
+}
+
+
+.box-about .about p{
+    font-size: 15px;
+}
+
+.box-about .experience h5{
+    font-size: 14px;
+    color: var(--senary-color);
+}
+
+.box-about .skills li{
+    display: block;
+    flex-direction: row;
+}
+
+.box-about .skills h5{
+    font-size: 14px;
+    color: var(--senary-color);
+    margin: 10px 0 5px 0;
+}
+.box-about .skills .progress{
+    height: 12px;
+}
+.box-about .skills .progress .progress-bar{
+    background-color: var(--tertiary-color);
+}
